@@ -6,7 +6,7 @@ function NavBar() {
         <nav className="mt-0 w-full bg-tertiary text-text-tertiary">
             <div className="container mx-auto flex items-center">
                 <div className="flex w-1/2 pl-4 text-sm">
-                    <ul className="list-reset flex justify-between flex-1 md:flex-none items-center">
+                    <ul className="list-reset flex justify-between flex-1 md:flex-none items-center z-10">
                         <li className="mr-14">
                             <img src={logo} className={"h-[75px] w-[75px] m-1.5"}/>
                         </li>
@@ -24,7 +24,7 @@ function NavBar() {
                         </li>
                         <li className="mr-2">
                             <a className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl"
-                               href="post_vue.html">Qui sommes nous ?</a>
+                               href="#">Qui sommes nous ?</a>
                         </li>
                         <li>
 
