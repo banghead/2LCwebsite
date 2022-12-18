@@ -3,9 +3,9 @@ import CardList from "../../components/CardList/CardList";
 import imageTest from "../../images/photo-test.jpg";
 
 const cardList = [
-    { image: imageTest, date: Date.now(), title: "Title1", details: "Details", onClick: () => console.log("coucou1") },
-    { image: imageTest, date: Date.now(), title: "Title2", details: "Details", onClick: () => console.log("coucou1") },
-    { image: imageTest, date: Date.now(), title: "Title3", details: "Details", onClick: () => console.log("coucou1") },
+    { image: imageTest, date: Date.now(), title: "Title1", details: "Details", onClick: () => console.log("coucou1"), key:1 },
+    { image: imageTest, date: Date.now(), title: "Title2", details: "Details", onClick: () => console.log("coucou1"), key:2 },
+    { image: imageTest, date: Date.now(), title: "Title3", details: "Details", onClick: () => console.log("coucou1"), key:3 },
 
 ];
 
