@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import AdhesionBanner from "./components/AdhesionBanner/AdhesionBanner";
-import Card from "./components/Card/Card";
+import CardList from './components/CardList/CardList';
 import Footer from "./components/Footer/Footer";
 import IconsContener from "./components/IconsContener/IconsContener";
 import MainCard from "./components/MainCard/MainCard";
@@ -13,6 +13,12 @@ import NavBar from "./components/NavBar/NavBar";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
+        <AdhesionBanner></AdhesionBanner>
+        <Card></Card>
+        <Footer></Footer>
+        <IconsContener></IconsContener>
+        <MainCard></MainCard>
+        <Movie></Movie>
         <NavBar></NavBar>
     </div>
 );
