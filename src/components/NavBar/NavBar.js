@@ -36,7 +36,7 @@ function NavBar() {
                         <li className="mr-5">
                             <Link to={"/action-sociales"}
                                 className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
-                                Action sociales
+                                Action sociale
                             </Link>
 
                         </li>
