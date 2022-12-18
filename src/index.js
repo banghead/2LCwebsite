@@ -1,14 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AdhesionBanner from "./components/AdhesionBanner/AdhesionBanner";
+import Card from "./components/Card/Card";
+import Footer from "./components/Footer/Footer";
+import IconsContener from "./components/IconsContener/IconsContener";
+import MainCard from "./components/MainCard/MainCard";
+import Movie from "./components/Movie/Movie";
+import NavBar from "./components/NavBar/NavBar";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <div>
+        <AdhesionBanner></AdhesionBanner>
+        <Card></Card>
+        <Footer></Footer>
+        <IconsContener></IconsContener>
+        <MainCard></MainCard>
+        <Movie></Movie>
+        <NavBar></NavBar>
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
