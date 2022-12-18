@@ -10,31 +10,31 @@ function NavBar() {
                 <div className="flex text-sm">
                     <ul className="list-reset flex justify-between flex-1 md:flex-none items-center">
                         <li className="mr-14">
-                            <Link to={"/accueil"} className="flex items-center ">
+                            <Link to={"2LCwebsite/accueil"} className="flex items-center ">
                                 <img src={logo} className={"h-[75px]  min-w-[75px] w-[75px] m-1.5"} alt={"logo"} />
                             </Link>
                         </li>
                         <li className="mr-2">
-                            <Link to={"/qui-sommes-nous"} className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                            <Link to={"2LCwebsite/qui-sommes-nous"} className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
                                 Qui sommes nous ?
                             </Link>
                         </li>
                         <li className="mr-5">
-                            <Link to={"/actualite"}
+                            <Link to={"2LCwebsite/actualite"}
                                 className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
                                 Actualités
                             </Link>
 
                         </li>
                         <li className="mr-5">
-                            <Link to={"/action-culturelle"}
+                            <Link to={"2LCwebsite/action-culturelle"}
                                 className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
                                 Action culturelle
                             </Link>
 
                         </li>
                         <li className="mr-5">
-                            <Link to={"/action-sociales"}
+                            <Link to={"2LCwebsite/action-sociales"}
                                 className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
                                 Action sociale
                             </Link>
