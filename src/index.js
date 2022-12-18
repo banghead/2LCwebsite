@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import AdhesionBanner from "./components/AdhesionBanner/AdhesionBanner";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./views/Home/Home";
 import Actualities from "./views/Actualities/Actualities";
 import CulturalActions from "./views/CulturalActions/CulturalActions";
@@ -17,18 +17,18 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
         <BrowserRouter>
-            <NavBar/>
+            <NavBar />
             <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="accueil" element={<Home/>}/>
-                <Route path="actualite" element={<Actualities/>}/>
-                <Route path="action-culturelle" element={<CulturalActions/>}/>
-                <Route path="action-sociales" element={<SocialActions/>}/>
-                <Route path="qui-sommes-nous" element={<WhoWeAre/>}/>
+                <Route path="/" element={<Home />} />
+                <Route path="accueil" element={<Home />} />
+                <Route path="actualite" element={<Actualities />} />
+                <Route path="action-culturelle" element={<CulturalActions />} />
+                <Route path="action-sociales" element={<SocialActions />} />
+                <Route path="qui-sommes-nous" element={<WhoWeAre />} />
                 {/*<Route path='dofus/:id' element={<PageDetail/>}/>*/}
-                <Route path="*" element={<p> ERREUR 404 </p>}/> {/*futur 404*/}
+                <Route path="*" element={<p> ERREUR 404 </p>} /> {/*futur 404*/}
             </Routes>
-            <Footer/>
+            <Footer />
         </BrowserRouter>
     </div>
 );
