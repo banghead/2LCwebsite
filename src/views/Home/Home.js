@@ -1,5 +1,6 @@
 import React from 'react';
 import CardList from "../../components/CardList/CardList";
+import MainCard from "../../components/MainCard/MainCard";
 import imageTest from "../../assets/photo-test.jpg";
 import video from "../../assets/homeMovie.mp4";
 import AdhesionBanner from "../../components/AdhesionBanner/AdhesionBanner";
@@ -59,10 +60,13 @@ function Home() {
     return (
         <div>
             <video autoPlay loop muted className={"w-full"}>
-                <source src={video} type={'video/mp4'}/>
+                <source src={video} type={'video/mp4'} />
             </video>
-            <AdhesionBanner/>
-            <CardList cardList={cardList}/>
+            <div className="-mt-32 max-lg:-mt-24 max-md:-mt-16 max-sm:-mt-8">
+                <MainCard image={imageTest} title="Main card" details="details je ne nesjegdjesgfsuygfeuygsbwcnx cghddcdh csdh sg csgdc cydey tdd ty ezytf ytfzey fzytffzeyf egz yfueuydaeyuuydaugd" />
+                <AdhesionBanner />
+                <CardList cardList={cardList} />
+            </div>
         </div>
     );
 }
