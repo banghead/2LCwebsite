@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/2LCwebsite/static/css/main.d8ffa20b.css",
+    "main.js": "/2LCwebsite/static/js/main.d6875bf3.js",
+    "static/js/787.00b87e7b.chunk.js": "/2LCwebsite/static/js/787.00b87e7b.chunk.js",
+    "static/media/homeMovie.mp4": "/2LCwebsite/static/media/homeMovie.46f08f73fa5b441bc619.mp4",
+    "static/media/photo-test.jpg": "/2LCwebsite/static/media/photo-test.e79a110f408de656bcb8.jpg",
+    "static/media/logo.png": "/2LCwebsite/static/media/logo.3845569061d99dfd457d.png",
+    "index.html": "/2LCwebsite/index.html",
+    "main.d8ffa20b.css.map": "/2LCwebsite/static/css/main.d8ffa20b.css.map",
+    "main.d6875bf3.js.map": "/2LCwebsite/static/js/main.d6875bf3.js.map",
+    "787.00b87e7b.chunk.js.map": "/2LCwebsite/static/js/787.00b87e7b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8ffa20b.css",
+    "static/js/main.d6875bf3.js"
+  ]
+}
