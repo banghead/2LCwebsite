@@ -13,12 +13,6 @@ import NavBar from "./components/NavBar/NavBar";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-        <AdhesionBanner></AdhesionBanner>
-        <Card></Card>
-        <Footer></Footer>
-        <IconsContener></IconsContener>
-        <MainCard></MainCard>
-        <Movie></Movie>
         <NavBar></NavBar>
     </div>
 );
