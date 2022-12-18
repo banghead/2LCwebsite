@@ -2,6 +2,7 @@ import React from 'react';
 import CardList from "../../components/CardList/CardList";
 import imageTest from "../../assets/photo-test.jpg";
 import video from "../../assets/homeMovie.mp4";
+import AdhesionBanner from "../../components/AdhesionBanner/AdhesionBanner";
 
 const cardList = [
     {
@@ -60,6 +61,7 @@ function Home() {
             <video autoPlay loop muted className={"w-full"}>
                 <source src={video} type={'video/mp4'}/>
             </video>
+            <AdhesionBanner/>
             <CardList cardList={cardList}/>
         </div>
     );
