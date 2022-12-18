@@ -3,6 +3,7 @@ import CardList from "../../components/CardList/CardList";
 import MainCard from "../../components/MainCard/MainCard";
 import imageTest from "../../assets/photo-test.jpg";
 import video from "../../assets/homeMovie.mp4";
+import AdhesionBanner from "../../components/AdhesionBanner/AdhesionBanner";
 
 const cardList = [
     {
@@ -63,6 +64,7 @@ function Home() {
             </video>
             <div className="-mt-32 max-lg:-mt-24 max-md:-mt-16 max-sm:-mt-8">
                 <MainCard image={imageTest} title="Main card" details="details je ne nesjegdjesgfsuygfeuygsbwcnx cghddcdh csdh sg csgdc cydey tdd ty ezytf ytfzey fzytffzeyf egz yfueuydaeyuuydaugd" />
+                <AdhesionBanner />
                 <CardList cardList={cardList} />
             </div>
         </div>
