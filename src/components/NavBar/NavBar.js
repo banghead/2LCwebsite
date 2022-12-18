@@ -1,30 +1,43 @@
 import React from 'react';
 import logo from '../../assets/logo.png'
+import {Link} from "react-router-dom";
 
 function NavBar() {
     return (
         <nav className="mt-0 w-full bg-tertiary text-text-tertiary">
             <div className="container mx-auto flex items-center">
                 <div className="flex w-1/2 pl-4 text-sm">
-                    <ul className="list-reset flex justify-between flex-1 md:flex-none items-center z-10">
+                    <ul className="list-reset flex justify-between flex-1 md:flex-none items-center z-10 ">
                         <li className="mr-14">
-                            <img src={logo} className={"h-[75px] w-[75px] m-1.5"}/>
+                            <Link to={"/accueil"} className="flex items-center ">
+                                <img src={logo} className={"h-[75px] w-[75px] m-1.5"} alt={"logo"}/>
+                            </Link>
                         </li>
                         <li className="mr-5">
-                            <a className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl"
-                               href="#">Actualités</a>
+                            <Link to={"/actualite"}
+                                  className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                                Actualités
+                            </Link>
+
                         </li>
                         <li className="mr-5">
-                            <a className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl"
-                               href="#">Action culturelle</a>
+                            <Link to={"/action-culturelle"}
+                                  className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                                Action culturelle
+                            </Link>
+
                         </li>
                         <li className="mr-5">
-                            <a className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl"
-                               href="#">Action sociales</a>
+                            <Link to={"/action-sociales"}
+                                  className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                                Action sociales
+                            </Link>
+
                         </li>
                         <li className="mr-2">
-                            <a className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl"
-                               href="#">Qui sommes nous ?</a>
+                            <Link to={"/qui-sommes-nous"} className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                                   Qui sommes nous ?
+                            </Link>
                         </li>
                         <li>
 

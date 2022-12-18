@@ -3,23 +3,33 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import AdhesionBanner from "./components/AdhesionBanner/AdhesionBanner";
-import CardList from './components/CardList/CardList';
 import Footer from "./components/Footer/Footer";
-import IconsContener from "./components/IconsContener/IconsContener";
-import MainCard from "./components/MainCard/MainCard";
-import Movie from "./components/Movie/Movie";
 import NavBar from "./components/NavBar/NavBar";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Home from "./views/Home/Home";
+import Actualities from "./views/Actualities/Actualities";
+import CulturalActions from "./views/CulturalActions/CulturalActions";
+import SocialActions from "./views/SocialActions/SocialActions";
+import WhoWeAre from "./views/WhoWeAre/WhoWeAre";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
-        <AdhesionBanner></AdhesionBanner>
-        <Card></Card>
-        <Footer></Footer>
-        <IconsContener></IconsContener>
-        <MainCard></MainCard>
-        <Movie></Movie>
-        <NavBar></NavBar>
+        <BrowserRouter>
+            <NavBar/>
+            <Routes>
+                <Route path="/" element={<Home/>}/>
+                <Route path="accueil" element={<Home/>}/>
+                <Route path="actualite" element={<Actualities/>}/>
+                <Route path="action-culturelle" element={<CulturalActions/>}/>
+                <Route path="action-sociales" element={<SocialActions/>}/>
+                <Route path="qui-sommes-nous" element={<WhoWeAre/>}/>
+                {/*<Route path='dofus/:id' element={<PageDetail/>}/>*/}
+                <Route path="*" element={<p> ERREUR 404 </p>}/> {/*futur 404*/}
+            </Routes>
+            <Footer/>
+        </BrowserRouter>
     </div>
 );
 
