@@ -2,7 +2,7 @@ import React from 'react';
 
 function Icons() {
   return (
-    <div className="flex">
+    <div className="flex justify-center">
 
       {/*Facebook */}
       <a className="inline-block text-text-tertiary no-underline hover:text-white hover:text-underline text-center h-10 p-2 md:h-auto md:p-4 avatar"
