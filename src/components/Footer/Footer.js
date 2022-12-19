@@ -24,6 +24,11 @@ function Footer() {
                                 <h1 className="font-bold">Réseau sociaux</h1>
                                 <div className="place-self-center">
                                     <Icons />
+                                    <p className={"mb-2"}>Site développé par : </p>
+                                    <ul>
+                                        <li className={"mb-2"}><a target="_blank" href={"https://www.linkedin.com/in/florian-aubin-270519182/"}>Florian AUBIN</a></li>
+                                        <li><a target="_blank" href={"https://www.linkedin.com/in/florian-bouilleteau-b75a90151/"}>Florian BOUILLETEAU</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
