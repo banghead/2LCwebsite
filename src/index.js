@@ -14,7 +14,7 @@ import WhoWeAre from "./views/WhoWeAre/WhoWeAre";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <div className={"bg-primary h-screen flex flex-col"}>
+    <div className={"bg-primary flex flex-col"}>
         <BrowserRouter>
             <NavBar />
             <div className='grow'>
