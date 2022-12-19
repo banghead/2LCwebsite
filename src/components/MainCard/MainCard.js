@@ -11,7 +11,7 @@ function MainCard({ image, title, details }) {
 
                     <div className="w-full md:w-1/3 flex flex-col flex-grow flex-shrink">
                         <div className="flex-1 bg-white rounded-r rounded-b-none overflow-hidden shadow-lg">
-                            <div className="w-full font-bold text-xl text-gray-900 px-6 pt-6 pb-2">👋 {title}</div>
+                            <div className="w-full font-bold text-xl text-gray-900 px-6 pt-6 pb-2">{title}</div>
                             <p className="text-gray-800 font-serif text-base px-6 mb-5">
                                 {details}
                             </p>
