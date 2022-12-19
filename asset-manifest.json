@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/2LCwebsite/static/css/main.04979225.css",
-    "main.js": "/2LCwebsite/static/js/main.a7dd7dc1.js",
+    "main.css": "/2LCwebsite/static/css/main.160e5146.css",
+    "main.js": "/2LCwebsite/static/js/main.619200e3.js",
     "static/js/787.00b87e7b.chunk.js": "/2LCwebsite/static/js/787.00b87e7b.chunk.js",
     "static/media/homeMovie.mp4": "/2LCwebsite/static/media/homeMovie.46f08f73fa5b441bc619.mp4",
+    "static/media/stageEcriture.png": "/2LCwebsite/static/media/stageEcriture.dcc072223134c773a9eb.png",
+    "static/media/ferme.jpg": "/2LCwebsite/static/media/ferme.1294247fc8604006ff25.jpg",
+    "static/media/block2022.jpg": "/2LCwebsite/static/media/block2022.4a069aefe8f6760707cf.jpg",
+    "static/media/2LC-2.png": "/2LCwebsite/static/media/2LC-2.5e1ed8c9ffb4091dbb35.png",
     "static/media/photo-test.jpg": "/2LCwebsite/static/media/photo-test.e79a110f408de656bcb8.jpg",
     "static/media/logo.png": "/2LCwebsite/static/media/logo.3845569061d99dfd457d.png",
     "index.html": "/2LCwebsite/index.html",
-    "main.04979225.css.map": "/2LCwebsite/static/css/main.04979225.css.map",
-    "main.a7dd7dc1.js.map": "/2LCwebsite/static/js/main.a7dd7dc1.js.map",
+    "main.160e5146.css.map": "/2LCwebsite/static/css/main.160e5146.css.map",
+    "main.619200e3.js.map": "/2LCwebsite/static/js/main.619200e3.js.map",
     "787.00b87e7b.chunk.js.map": "/2LCwebsite/static/js/787.00b87e7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04979225.css",
-    "static/js/main.a7dd7dc1.js"
+    "static/css/main.160e5146.css",
+    "static/js/main.619200e3.js"
   ]
 }
