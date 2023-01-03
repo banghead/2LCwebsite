@@ -5,7 +5,7 @@ function MainCard({ image, title, details }) {
         <div className="h-full flex justify-center">
             <div className="h-full bg-white rounded w-[80vw]">
                 <div className="flex flex-wrap shadow-lg overflow-hidden rounded">
-                    <div className="w-full md:w-2/3 rounded-l">
+                    <div className="w-full md:w-2/3 rounded-l max-w-3xl">
                         <img src={image} alt={title} className="h-full w-full shadow" />
                     </div>
 
