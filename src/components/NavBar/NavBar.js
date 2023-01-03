@@ -8,32 +8,31 @@ function NavBar() {
         <nav className="mt-0 w-full bg-tertiary text-text-tertiary">
             <div className="container mx-auto flex items-center justify-between	px-4">
                 <div className="flex text-sm">
-                    <ul className="list-reset flex justify-between flex-1 md:flex-none items-center">
+                    <ul className="list-reset flex justify-between flex-1 lg:flex-none items-center">
                         <li className="mr-14">
                             <Link to={"2LCwebsite/accueil"} className="flex items-center ">
                                 <img src={logo} className={"h-[75px]  min-w-[75px] w-[75px] m-1.5"} alt={"logo"} />
                             </Link>
                         </li>
-                        <li className="mr-2 hidden md:inline">
+                        <li className="mr-2 hidden lg:inline">
                             <Link to={"2LCwebsite/qui-sommes-nous"} className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
                                 Qui sommes nous ?
                             </Link>
                         </li>
-                        <li className="mr-5 hidden md:inline">
+                        <li className="mr-5 hidden lg:inline">
+                            <Link to={"2LCwebsite/action-culturelle"}
+                                  className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                                Ateliers/Cours
+                            </Link>
+                        </li>
+                        <li className="mr-5 hidden lg:inline">
                             <Link to={"2LCwebsite/actualite"}
                                 className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
                                 Actualités
                             </Link>
 
                         </li>
-                        <li className="mr-5 hidden md:inline">
-                            <Link to={"2LCwebsite/action-culturelle"}
-                                className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
-                                Action culturelle
-                            </Link>
-
-                        </li>
-                        <li className="mr-5 hidden md:inline">
+                        <li className="mr-5 hidden lg:inline">
                             <Link to={"2LCwebsite/action-sociales"}
                                 className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
                                 Action sociale
@@ -44,11 +43,11 @@ function NavBar() {
                 </div>
 
 
-                <div className="justify-end content-center hidden md:inline">
+                <div className="justify-end content-center hidden lg:inline">
                     <Icons />
                 </div>
 
-                <div className="space-y-2 md:hidden">
+                <div className="space-y-2 lg:hidden">
                     <div className="w-8 h-0.5 bg-text-tertiary"/>
                     <div className="w-8 h-0.5 bg-text-tertiary"/>
                     <div className="w-8 h-0.5 bg-text-tertiary"/>

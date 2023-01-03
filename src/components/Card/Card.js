@@ -1,5 +1,4 @@
 import React from "react";
-import moment from "moment"
 import Button from "../Button/Button"
 
 function Card({ image, date, title, details, onClick }) {
