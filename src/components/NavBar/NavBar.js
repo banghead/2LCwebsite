@@ -68,7 +68,7 @@ function NavBar() {
                     <Icons/>
                 </div>
 
-                <div onClick={dropdown} className="space-y-2 lg:hidden">
+                <div id={"menuBurger"} onClick={dropdown} className="space-y-2 lg:hidden">
                     <div className="w-8 h-0.5 bg-text-tertiary"/>
                     <div className="w-8 h-0.5 bg-text-tertiary"/>
                     <div className="w-8 h-0.5 bg-text-tertiary"/>
