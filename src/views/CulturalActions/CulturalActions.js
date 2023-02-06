@@ -31,7 +31,6 @@ function CulturalActions() {
                 " aux freezer originaux, ce stage t’emmènera a la découverte de ton flow de danse. Un accent particulier" +
                 " sera mis sur la culture des battles et des shows partagés."
             }/>
-            <CulturalActionsCardRight imageTest={imageGraff} title={"Graff"} details={"texte pour le graff"}/>
         </div>
     );
 }
