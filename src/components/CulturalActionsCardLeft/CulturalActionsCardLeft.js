@@ -2,7 +2,7 @@ import React from 'react';
 
 function CulturalActionsCardLeft({imageTest, title, details}) {
     return (
-        <div className="h-full flex justify-center">
+        <div className="h-full flex mr-20 ml-20">
             <div className="h-full bg-white rounded w-full m-5">
                 <div className="grid md:grid-cols-2 grid-cols-1 shadow-lg overflow-hidden rounded">
                     <div className="w-full md:w-full rounded-l">
