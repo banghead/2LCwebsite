@@ -70,7 +70,7 @@ function Home() {
                 <source src={video} type={'video/mp4'}/>
             </video>
             <div className="-mt-32 max-lg:-mt-24 max-md:-mt-16 max-sm:-mt-8">
-                <MainCard image={logo2LC} title="2LC"
+                <MainCard image={logo2LC} title=""
                           details="Depuis sa création en 2008, l’association Ludik et Lucid Connexion (2LC) ne cesse d’évoluer et de se structurer en gardant bien en vue son objectif premier : contribuer à créer du lien de qualité entre les personnes via l’expression par la culture HIP-HOP.
 Dans le but de favoriser le bien vivre ensemble, nous développons des espaces relationnels entre les êtres humains de tous milieux ( urbain / péri – urbain / rural ) : l’initiation aux déplacements est un des outils que nous utilisons."/>
                 <AdhesionBanner/>
