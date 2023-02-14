@@ -1,9 +1,9 @@
 import React from 'react';
 import CardList from "../../components/CardList/CardList";
-import imageTest from "../../assets/photo-test.jpg";
-import CulturalActionsCardRight from "../../components/CulturalActionsCardRight/CulturalActionsCardRight";
-import imageBbx from "../../assets/images/culturalActionsImages/bbx.jpg";
-import CulturalActionsCardLeft from "../../components/CulturalActionsCardLeft/CulturalActionsCardLeft";
+import imageTest from "../../assets/images/photo-test.jpg";
+import CardImageRight from "../../components/CardImageRight/CardImageRight";
+import imageBbx from "../../assets/images/ateliers/bbx.jpg";
+import CardImageLeft from "../../components/CardImageLeft/CardImageLeft";
 
 const cardList = [
     {
@@ -51,14 +51,14 @@ const cardList = [
 function WhoWeAre() {
     return (
         <div>
-            <CulturalActionsCardRight imageTest={imageBbx} title={"Action culturelle"}
+            <CardImageRight imageTest={imageBbx} title={"Action culturelle"}
 
-                                      details={
+                            details={
                                           "Développement de la culture hip-hop"
                                       }/>
-            <CulturalActionsCardLeft imageTest={imageBbx} title={"Action sociale"}
+            <CardImageLeft imageTest={imageBbx} title={"Action sociale"}
 
-                                     details={
+                           details={
                                          "Créer des liens de qualités"
                                      }/>
         </div>

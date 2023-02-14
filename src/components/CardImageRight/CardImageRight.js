@@ -1,16 +1,10 @@
 import React from 'react';
 import ScheduleArray from "../ScheduleArray/ScheduleArray";
 
-function CulturalActionsCardRight({imageTest, title, details, horaires}) {
+function CardImageRight({imageTest, title, details, horaires}) {
     let atelierBlock;
     if (horaires !== undefined) {
-        atelierBlock = <div>
-            <p className="text-gray-800 font-serif text-base px-6 text-[19px] text-justify">
-                <span className={'font-bold'}>Adresse : </span>8 Rue de la Catalogne, 44240 La
-                Chapelle-sur-Erdre
-            </p>
-            <ScheduleArray horaires={horaires}/>
-        </div>
+        atelierBlock = <ScheduleArray horaires={horaires}/>
     }
     return (
         <div className="h-full flex md:mr-20 md:ml-20">
@@ -48,4 +42,4 @@ function CulturalActionsCardRight({imageTest, title, details, horaires}) {
     );
 }
 
-export default CulturalActionsCardRight;
+export default CardImageRight;

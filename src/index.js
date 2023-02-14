@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar/NavBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./views/Home/Home";
 import Actualities from "./views/Actualities/Actualities";
-import CulturalActions from "./views/CulturalActions/CulturalActions";
+import Workshop from "./views/Workshop/Workshop";
 import SocialActions from "./views/SocialActions/SocialActions";
 import WhoWeAre from "./views/WhoWeAre/WhoWeAre";
 
@@ -22,10 +22,10 @@ root.render(
                     <Route path="/2LCwebsite" element={<Home />} />
                     <Route path="2LCwebsite/accueil" element={<Home />} />
                     <Route path="2LCwebsite/actualite" element={<Actualities />} />
-                    <Route path="2LCwebsite/action-culturelle" element={<CulturalActions />} />
+                    <Route path="2LCwebsite/atelier" element={<Workshop />} />
+                    {/*<Route path='2LCwebsite/actualite/:id' element={<PageDetail/>}/>*/}
                     <Route path="2LCwebsite/action-sociales" element={<SocialActions />} />
                     <Route path="2LCwebsite/qui-sommes-nous" element={<WhoWeAre />} />
-                    {/*<Route path='dofus/:id' element={<PageDetail/>}/>*/}
                     <Route path="*" element={<p> ERREUR 404 </p>} /> {/*futur 404*/}
                 </Routes>
             </div>

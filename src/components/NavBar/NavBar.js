@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo.png'
+import logo from '../../assets/images/logo.png'
 import Icons from '../Icons/Icons'
 import {Link} from "react-router-dom";
 import './NavBar.css'
@@ -41,7 +41,7 @@ function NavBar() {
                             </Link>
                         </li>
                         <li className="mr-5 hidden lg:inline">
-                            <Link to={"2LCwebsite/action-culturelle"}
+                            <Link to={"2LCwebsite/atelier"}
                                   className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
                                 Ateliers/Cours
                             </Link>
@@ -93,7 +93,7 @@ function NavBar() {
                     </li>
                     <li className={"pr-6 pl-6"}>
                         <div className={"border-b pb-3 pt-3"}>
-                            <Link to={"2LCwebsite/action-culturelle"}
+                            <Link to={"2LCwebsite/atelier"}
                                   className="text-text-tertiary">
                                 Ateliers/Cours
                             </Link>
