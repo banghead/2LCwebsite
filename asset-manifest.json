@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/2LCwebsite/static/css/main.21af0262.css",
-    "main.js": "/2LCwebsite/static/js/main.7a44a375.js",
+    "main.css": "/2LCwebsite/static/css/main.d2a68f7d.css",
+    "main.js": "/2LCwebsite/static/js/main.ccc27edc.js",
     "static/js/787.00b87e7b.chunk.js": "/2LCwebsite/static/js/787.00b87e7b.chunk.js",
     "static/media/homeMovie.mp4": "/2LCwebsite/static/media/homeMovie.46f08f73fa5b441bc619.mp4",
-    "static/media/stageEcriture.png": "/2LCwebsite/static/media/stageEcriture.dcc072223134c773a9eb.png",
-    "static/media/ferme.jpg": "/2LCwebsite/static/media/ferme.1294247fc8604006ff25.jpg",
-    "static/media/block2022.jpg": "/2LCwebsite/static/media/block2022.4a069aefe8f6760707cf.jpg",
-    "static/media/bbx.jpg": "/2LCwebsite/static/media/bbx.a449be70a79a2b80da87.jpg",
-    "static/media/ecriture.jpg": "/2LCwebsite/static/media/ecriture.d82d9a8f979848e8492f.jpg",
+    "static/media/Ateliersderue_Rollers,BeatBoxet Breaking.JPG": "/2LCwebsite/static/media/Ateliersderue_Rollers,BeatBoxet Breaking.5fc4939d17d7769e075b.JPG",
+    "static/media/bbx.jpg": "/2LCwebsite/static/media/bbx.1f0e2ce4133de1de25fb.jpg",
+    "static/media/break.jpg": "/2LCwebsite/static/media/break.62f3cbb0b1a82423091f.jpg",
+    "static/media/ecriture.jpg": "/2LCwebsite/static/media/ecriture.f1c078be05ad1aeb4ea7.jpg",
+    "static/media/2LCTravel_l’équipedeGabon2024autravail.jpeg": "/2LCwebsite/static/media/2LCTravel_l’équipedeGabon2024autravail.fa1d40768098d59fedcf.jpeg",
     "static/media/2LC-2.png": "/2LCwebsite/static/media/2LC-2.5e1ed8c9ffb4091dbb35.png",
-    "static/media/break.jpg": "/2LCwebsite/static/media/break.65719e63c853177570d1.jpg",
     "static/media/photo-test.jpg": "/2LCwebsite/static/media/photo-test.e79a110f408de656bcb8.jpg",
     "static/media/logo.png": "/2LCwebsite/static/media/logo.3845569061d99dfd457d.png",
     "index.html": "/2LCwebsite/index.html",
-    "main.21af0262.css.map": "/2LCwebsite/static/css/main.21af0262.css.map",
-    "main.7a44a375.js.map": "/2LCwebsite/static/js/main.7a44a375.js.map",
+    "main.d2a68f7d.css.map": "/2LCwebsite/static/css/main.d2a68f7d.css.map",
+    "main.ccc27edc.js.map": "/2LCwebsite/static/js/main.ccc27edc.js.map",
     "787.00b87e7b.chunk.js.map": "/2LCwebsite/static/js/787.00b87e7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21af0262.css",
-    "static/js/main.7a44a375.js"
+    "static/css/main.d2a68f7d.css",
+    "static/js/main.ccc27edc.js"
   ]
 }
