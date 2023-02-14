@@ -33,13 +33,13 @@ function CulturalActions() {
                                               {
                                                   day: 'lundi',
                                                   schedule: '18h-19h',
-                                                  level: 'Débutant / Intermédaire',
+                                                  level: 'Débutant',
                                                   teacher: 'Payk'
                                               },
                                               {
                                                   day: 'lundi',
                                                   schedule: '19h-20h',
-                                                  level: 'Intermédiaire / Confirmé',
+                                                  level: 'Confirmé',
                                                   teacher: 'Payk'
                                               }
                                           ]
