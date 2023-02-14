@@ -54,9 +54,15 @@ function NavBar() {
 
                         </li>
                         <li className="mr-5 hidden lg:inline">
-                            <Link to={"2LCwebsite/action-sociales"}
+                            <Link to={"2LCwebsite/artiste-show"}
                                   className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
-                                Action sociale
+                                Nos artistes / Nos spectacles
+                            </Link>
+                        </li>
+                        <li className="mr-5 hidden lg:inline">
+                            <Link to={"2LCwebsite/farmer"}
+                                  className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                                2LC Farmer
                             </Link>
 
                         </li>
@@ -101,11 +107,19 @@ function NavBar() {
                             </Link>
                         </div>
                     </li>
+                    <li className={"pr-6 pl-6"}>
+                        <div className={"border-b pb-3 pt-3"}>
+                            <Link to={"2LCwebsite/action-sociales"}
+                                  className="text-text-tertiary">
+                                Nos artistes / Nos spectacles
+                            </Link>
+                        </div>
+                    </li>
                     <li className={"pr-6 pl-6 pb-4"}>
                         <div className={"border-b pb-3 pt-3"}>
                             <Link to={"2LCwebsite/action-sociales"}
                                   className="text-text-tertiary">
-                                Action sociale
+                                2LC Farmer
                             </Link>
                         </div>
                     </li>

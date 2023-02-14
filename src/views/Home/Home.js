@@ -8,24 +8,26 @@ import block from "../../assets/images/homeImages/block2022.jpg"
 import ferme from "../../assets/images/homeImages/ferme.jpg"
 import ecriture from "../../assets/images/homeImages/stageEcriture.png"
 import logo2LC from "../../assets/logo.png"
+import {Link} from "react-router-dom";
 
 const cardList = [
     {
         image: ferme,
-        date: "8 septembre 2022",
-        title: "2LC Farmer, la ferme s’invite au quartier",
-        details: "Le mercredi 17 août notre équipe s’est installée sur le Terrain des possibles au petit matin avec de drôles d’invités. \n" +
-            "\n" +
-            "Les habitants du Clos Toreau ont pu se réveiller au chant du coq et bêlement des brebis." +
-            " 2LC s’est transformé en 2LC farmer. La ferme s’est installée au quartier le temps d’une journée. Des animateurs et des bénévoles encadraient l’aventure, des brebis, des coqs, des poules, des oies, des poussins, des canetons et les mères la faisaient vivre tout naturellement.",
+        date: "30 janvier 2023",
+        title: "2LC Travel : l’équipe de Gabon 2024 au travail",
+        details: "Suite à l’annulation du départ pour le Kenya en décembre 2023, l’équipe 2LC Travel" +
+            "  s’est réunie ce 23 janvier au centre des Alévis de Nantes: au programme, choisir une nouvelle destination!" +
+            " Ce sera le Gabon et Libreville pour le printemps 2024.",
         onClick: () => console.log("coucou1"),
         key: 1
     },
     {
         image: logo,
-        date: "14 juin 2022",
-        title: "Favoriser l’accès à l’emploi",
-        details: "Details",
+        date: "14 février 2023",
+        title: "Ateliers de rue : Rollers, BeatBox et  Breaking",
+        details: "Dimanche 19 et 26 février, l’équipe sera à Malakoff à 15h, rue d’angleterre et au Clos Toreau à 16h30" +
+            " sur les jeux d’eau," +
+            " pour braver le froid et réchauffer les cœurs. Matériel à disposition pour tous, venez juste avec votre envie.",
         onClick: () => console.log("coucou2"),
         key: 2
     },
@@ -79,7 +81,15 @@ function Home() {
                               Les forces vives de <span className='font-bold'>2L.C</span> onnexion utilisent
                               l’expression par la culture HIP-HOP, la glisse urbaine et la médiation animale.
                               Pour favoriser le bien vivre ensemble, le collectif créent des espaces relationnels entre
-                              les êtres humains de toute origine et tout horizons.</p>
+                              les êtres humains de toute origine et tout horizons. Ici&nbsp;
+                              <Link to={"2LCwebsite/farmer"}>
+                                  l’action culturelle
+                              </Link>
+                              &nbsp;et&nbsp;
+                              <Link to={"2LCwebsite/farmer"}>
+                                  l’action sociale&nbsp;
+                              </Link>
+                              œuvre dans le même sens.</p>
                           }/>
                 <AdhesionBanner/>
                 <CardList cardList={cardList}/>

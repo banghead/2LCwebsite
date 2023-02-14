@@ -9,14 +9,14 @@ import CulturalActionsCardRight from "../../components/CulturalActionsCardRight/
 function CulturalActions() {
     return (
         <div>
-            <CulturalActionsCardLeft imageTest={imageEcriture} title={"Ecriture"}
+            <CulturalActionsCardLeft imageTest={imageEcriture} title={"Ecriture partagée"}
                                      horaires={
                                          [
                                              {
                                                  day: 'lundi',
-                                                 schedule: '19h-20h30',
+                                                 schedule: '19h00-20h30',
                                                  level: 'Tous niveaux',
-                                                 teacher: 'Flow Demo'
+                                                 teacher: 'Omed'
                                              }
                                          ]
                                      }
@@ -27,18 +27,37 @@ function CulturalActions() {
                                          " de le faire pour le plaisir. Durant les séances, grâce a la richesse du groupe, n nous explorerons l’idée" +
                                          " de ” l’inspiration dans les mots de l’autre “."
                                      }/>
-            <CulturalActionsCardRight imageTest={imageBbx} title={"Beatbox"}
+            <CulturalActionsCardRight imageTest={imageBbx} title={"Rap"}
                                       horaires={
                                           [
                                               {
                                                   day: 'lundi',
-                                                  schedule: '18h-19h',
+                                                  schedule: '18h00-19h00',
+                                                  level: 'Débutant',
+                                                  teacher: 'Omed'
+                                              }
+                                          ]
+                                      }
+
+                                      details={
+                                          "Que ce soit dans le but de découvrir ou d’approfondir tes connaissances et ta pratique du beatbox," +
+                                          " c’est dans la joie et la bonne humeur que FURAX t’accueillera. Des kicks au samples classiques aux sons" +
+                                          " improbables, ce stage t’emmènera a la découverte de ton flow de bouche. Un accent particulier sera mis" +
+                                          " sur la culture des battles et des shows partagés. "
+
+                                      }/>
+            <CulturalActionsCardLeft imageTest={imageBbx} title={"Beatbox"}
+                                      horaires={
+                                          [
+                                              {
+                                                  day: 'lundi',
+                                                  schedule: '18h00-19h00',
                                                   level: 'Débutant',
                                                   teacher: 'Payk'
                                               },
                                               {
                                                   day: 'lundi',
-                                                  schedule: '19h-20h',
+                                                  schedule: '19h00-20h15',
                                                   level: 'Confirmé',
                                                   teacher: 'Payk'
                                               }
@@ -52,20 +71,20 @@ function CulturalActions() {
                                           " sur la culture des battles et des shows partagés. "
 
                                       }/>
-            <CulturalActionsCardLeft imageTest={imageBreak} title={"Danse"}
+            <CulturalActionsCardRight imageTest={imageBreak} title={"Breakdance"}
                                      horaires={
                                          [
                                              {
                                                  day: 'lundi',
-                                                 schedule: '18h-19h',
-                                                 level: 'Débutant / Intermédaire',
-                                                 teacher: 'NAS'
+                                                 schedule: '18h00-19h00',
+                                                 level: 'Débutant',
+                                                 teacher: 'Nas'
                                              },
                                              {
                                                  day: 'lundi',
-                                                 schedule: '19h-20h',
-                                                 level: 'Intermédiaire / Confirmé',
-                                                 teacher: 'NAS'
+                                                 schedule: '19h00-20h15',
+                                                 level: 'Confirmé',
+                                                 teacher: 'Nas'
                                              }
                                          ]
                                      }
