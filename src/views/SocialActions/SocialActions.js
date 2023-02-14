@@ -1,6 +1,6 @@
 import React from 'react';
 import CardList from "../../components/CardList/CardList";
-import imageTest from "../../assets/photo-test.jpg";
+import imageTest from "../../assets/images/photo-test.jpg";
 
 const cardList = [
     { image: imageTest, date: Date.now(), title: "Title1", details: "Details", onClick: () => console.log("coucou1"), key:1 },
