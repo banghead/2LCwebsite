@@ -15,9 +15,9 @@ function Footer() {
                             <div className="flex flex-col w-1/3 max-sm:w-full px-4 max-sm:pt-2 text-sm justify-center">
                                 <h1 className="font-bold pb-2">Nous contacter</h1>
                                 <ul>
-                                    <li>10 Rue Henri Giffard, 44300, Nantes</li>
+                                    <li>Maison des confluences, Boulevard Emile Gabory 4 place du muguet Nantais, 44200, Nantes</li>
                                     <li className="flex flex-wrap justify-center">ludiketlucid.connexion<p>@gmail.com</p></li>
-                                    <li>+33 7 58 32 43 03</li>
+                                    <li>06 07 69 48 04</li>
                                 </ul>
                             </div>
                             <div className="flex flex-col w-1/3 max-sm:w-full px-4 max-sm:pt-4 text-sm justify-center">
