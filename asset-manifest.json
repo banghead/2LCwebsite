@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/2LCwebsite/static/css/main.d2a68f7d.css",
-    "main.js": "/2LCwebsite/static/js/main.ccc27edc.js",
+    "main.js": "/2LCwebsite/static/js/main.f8e3bb36.js",
     "static/js/787.00b87e7b.chunk.js": "/2LCwebsite/static/js/787.00b87e7b.chunk.js",
     "static/media/homeMovie.mp4": "/2LCwebsite/static/media/homeMovie.46f08f73fa5b441bc619.mp4",
     "static/media/Ateliersderue_Rollers,BeatBoxet Breaking.JPG": "/2LCwebsite/static/media/Ateliersderue_Rollers,BeatBoxet Breaking.5fc4939d17d7769e075b.JPG",
+    "static/media/Lacompilecaavance.jpg": "/2LCwebsite/static/media/Lacompilecaavance.f351ed3dafce1785f572.jpg",
     "static/media/bbx.jpg": "/2LCwebsite/static/media/bbx.1f0e2ce4133de1de25fb.jpg",
     "static/media/break.jpg": "/2LCwebsite/static/media/break.62f3cbb0b1a82423091f.jpg",
     "static/media/ecriture.jpg": "/2LCwebsite/static/media/ecriture.f1c078be05ad1aeb4ea7.jpg",
@@ -14,11 +15,11 @@
     "static/media/logo.png": "/2LCwebsite/static/media/logo.3845569061d99dfd457d.png",
     "index.html": "/2LCwebsite/index.html",
     "main.d2a68f7d.css.map": "/2LCwebsite/static/css/main.d2a68f7d.css.map",
-    "main.ccc27edc.js.map": "/2LCwebsite/static/js/main.ccc27edc.js.map",
+    "main.f8e3bb36.js.map": "/2LCwebsite/static/js/main.f8e3bb36.js.map",
     "787.00b87e7b.chunk.js.map": "/2LCwebsite/static/js/787.00b87e7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2a68f7d.css",
-    "static/js/main.ccc27edc.js"
+    "static/js/main.f8e3bb36.js"
   ]
 }
