@@ -7,9 +7,26 @@ import logo from "../../assets/images/2LC-2.png"
 import logo2LC from "../../assets/images/logo.png"
 import travel from "../../assets/images/articles/2LCTravel_l’équipedeGabon2024autravail.jpeg"
 import rollerBeat from "../../assets/images/articles/Ateliersderue_Rollers,BeatBoxet Breaking.JPG"
+import compile from "../../assets/images/articles/Lacompilecaavance.jpg"
 import {Link} from "react-router-dom";
 
 const cardList = [
+    {
+        image: compile,
+        date: "6 mars 2023",
+        title: "La Compile 2LC, ça avance!",
+        details: "En préparation de la compile Rap 2LC, les séances de studio s'enchaînent chez Bellarue 17. C’est ainsi que Babass, S2A et Banghead ont posé leurs voix sur le morceau “ Dans mes nuages “: un track sur lequel on retrouvera aussi Omed aux commandes du refrain. Sur le thème du jardin secret, dans un registre boom bap, les 4 artistes se livrent une fois de plus sans compter.",
+        onClick: () => console.log("coucou4"),
+        key: 1
+    },
+    {
+        image: logo,
+        date: "6 mars 2023",
+        title: "Black and White: Les naissances vont bon train !",
+        details: "La période de l’hiver rime avec naissance chez les moutons. Ce sont déjà 6 agneaux qui sont nés dans la ludik et lucid farmer. 2 petits béliers et 4 petites agnelles que nous retrouverons sans aucun doute dans nos ateliers de médiation animale et pourquoi pas tout prêt de chez toi !",
+        onClick: () => console.log("coucou5"),
+        key: 2
+    },
     {
         image: rollerBeat,
         date: "14 février 2023",
@@ -18,7 +35,7 @@ const cardList = [
             " sur les jeux d’eau," +
             " pour braver le froid et réchauffer les cœurs. Matériel à disposition pour tous, venez juste avec votre envie.",
         onClick: () => console.log("coucou2"),
-        key: 1
+        key: 3
     },
     {
         image: travel,
@@ -28,7 +45,7 @@ const cardList = [
             "  s’est réunie ce 23 janvier au centre des Alévis de Nantes: au programme, choisir une nouvelle destination!" +
             " Ce sera le Gabon et Libreville pour le printemps 2024.",
         onClick: () => console.log("coucou1"),
-        key: 2
+        key: 4
     },
     {
         image: logo,
@@ -36,22 +53,6 @@ const cardList = [
         title: "Soutien au téléthon chapelain",
         details: "Les breakeurs, les écrivains , les rappeurs et les beatboxers étaient 27 cette année et ont encore une fois mis le feu à Capellia dans le cadre du téléthon 2023. Cette date  a été l’occasion pour nos débutants de goûter à l’expérience scénique en alliant l’utile à l’agréable !",
         onClick: () => console.log("coucou3"),
-        key: 3
-    },
-    {
-        image: logo,
-        date: "12 février 2022",
-        title: "anim’ de rue",
-        details: "Details",
-        onClick: () => console.log("coucou4"),
-        key: 4
-    },
-    {
-        image: logo,
-        date: "12 février 2022",
-        title: "anim’ de rue",
-        details: "Details",
-        onClick: () => console.log("coucou5"),
         key: 5
     },
     {
