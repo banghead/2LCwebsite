@@ -19,13 +19,13 @@ root.render(
             <NavBar />
             <div className='grow'>
                 <Routes>
-                    <Route path="/2LCwebsite" element={<Home />} />
-                    <Route path="2LCwebsite/accueil" element={<Home />} />
-                    <Route path="2LCwebsite/actualite" element={<Actualities />} />
-                    <Route path="2LCwebsite/atelier" element={<Workshop />} />
-                    {/*<Route path='2LCwebsite/actualite/:id' element={<PageDetail/>}/>*/}
-                    <Route path="2LCwebsite/action-sociales" element={<SocialActions />} />
-                    <Route path="2LCwebsite/qui-sommes-nous" element={<WhoWeAre />} />
+                    <Route path="" element={<Home />} />
+                    <Route path="accueil" element={<Home />} />
+                    <Route path="actualite" element={<Actualities />} />
+                    <Route path="atelier" element={<Workshop />} />
+                    {/*<Route path='actualite/:id' element={<PageDetail/>}/>*/}
+                    <Route path="action-sociales" element={<SocialActions />} />
+                    <Route path="qui-sommes-nous" element={<WhoWeAre />} />
                     <Route path="*" element={<p> ERREUR 404 </p>} /> {/*futur 404*/}
                 </Routes>
             </div>
