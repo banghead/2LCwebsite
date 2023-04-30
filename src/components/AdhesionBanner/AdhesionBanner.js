@@ -1,8 +1,17 @@
 import React from 'react';
-import {MegaphoneIcon, XMarkIcon} from '@heroicons/react/24/outline'
+import {MegaphoneIcon} from '@heroicons/react/24/outline'
 import Button from "../Button/Button";
 
 function AdhesionBanner() {
+
+    function changeText() {
+        document.getElementById("divTextChange").children[0].innerHTML = "Prochainement";
+    }
+
+    function returnText() {
+        document.getElementById("divTextChange").children[0].innerHTML = "J'adhère";
+    }
+
     return (
         <div className="bg-tertiary text-text-tertiary mt-[4.5em] mr-20 ml-20 ">
             <div className="mx-auto max-w-7xl py-3 px-3 sm:px-6 lg:px-8">
@@ -15,7 +24,9 @@ function AdhesionBanner() {
                             <span className="hidden md:inline">Bonne nouvelle ! les adhésions sont ouvertes.</span>
                         </p>
                     </div>
-                    <div className="order-3 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto flex justify-end ">
+                    <div id={"divTextChange"}
+                         className="order-3 w-full flex-shrink-0 sm:order-2 sm:mt-0 sm:w-auto flex justify-end"
+                         onMouseOut={returnText} onMouseOver={changeText}>
                         <Button>J'adhère !</Button>
                     </div>
                 </div>

@@ -21,8 +21,8 @@ function CardImageRight({imageTest, title, details, horaires}) {
                         </div>
                     </div>
 
-                    <div className="w-full md:w-full rounded-l">
-                        <img src={imageTest} alt={title} className="h-full w-full shadow"/>
+                    <div className='grid place-items-center'>
+                        <img src={imageTest} alt={title} style={{maxWidth: 400}}/>
                     </div>
 
                     <div className="md:hidden w-full md:w-full flex flex-col flex-grow flex-shrink">
