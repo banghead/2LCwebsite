@@ -82,11 +82,11 @@ function Home() {
                               l’expression par la culture HIP-HOP, la glisse urbaine et la médiation animale.
                               Pour favoriser le bien vivre ensemble, le collectif créent des espaces relationnels entre
                               les êtres humains de toute origine et tout horizons. Ici&nbsp;
-                              <Link to={"2LCwebsite/farmer"}>
+                              <Link to={"farmer"}>
                                   l’action culturelle
                               </Link>
                               &nbsp;et&nbsp;
-                              <Link to={"2LCwebsite/farmer"}>
+                              <Link to={"farmer"}>
                                   l’action sociale&nbsp;
                               </Link>
                               œuvre dans le même sens.</p>
