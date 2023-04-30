@@ -1,5 +1,4 @@
 import React from 'react';
-import CardList from "../../components/CardList/CardList";
 import imageTest from "../../assets/images/photo-test.jpg";
 import CardImageRight from "../../components/CardImageRight/CardImageRight";
 import imageBbx from "../../assets/images/ateliers/bbx.jpg";
@@ -54,13 +53,13 @@ function WhoWeAre() {
             <CardImageRight imageTest={imageBbx} title={"Action culturelle"}
 
                             details={
-                                          "Développement de la culture hip-hop"
-                                      }/>
+                                "Développement de la culture hip-hop"
+                            }/>
             <CardImageLeft imageTest={imageBbx} title={"Action sociale"}
 
                            details={
-                                         "Créer des liens de qualités"
-                                     }/>
+                               "Créer des liens de qualités"
+                           }/>
         </div>
     );
 }
