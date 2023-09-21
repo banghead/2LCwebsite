@@ -72,7 +72,7 @@ function Home() {
                 <source src={video} type={'video/mp4'}/>
             </video>
             <div className="-mt-32 max-lg:-mt-24 max-md:-mt-16 max-sm:-mt-8">
-                <MainCard image={logo2LC} title=""
+                <MainCard image={logo2LC} title="2LC" title2={"2LC Farmer"}
                           details={<p className="text-gray-800 font-serif text-base px-6 mb-5">
                               Créée en 2008, l’association Ludik et Lucid Connexion (2LC) ne cesse d’évoluer et de se
                               structurer
