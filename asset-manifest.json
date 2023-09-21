@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9ab3e5a9.css",
-    "main.js": "/static/js/main.f1cf1eab.js",
+    "main.js": "/static/js/main.ee5550ba.js",
     "static/js/787.00b87e7b.chunk.js": "/static/js/787.00b87e7b.chunk.js",
     "static/media/homeMovie.mp4": "/static/media/homeMovie.46f08f73fa5b441bc619.mp4",
     "static/media/Ateliersderue_Rollers,BeatBoxet Breaking.JPG": "/static/media/Ateliersderue_Rollers,BeatBoxet Breaking.5fc4939d17d7769e075b.JPG",
@@ -15,11 +15,11 @@
     "static/media/logo.png": "/static/media/logo.3845569061d99dfd457d.png",
     "index.html": "/index.html",
     "main.9ab3e5a9.css.map": "/static/css/main.9ab3e5a9.css.map",
-    "main.f1cf1eab.js.map": "/static/js/main.f1cf1eab.js.map",
+    "main.ee5550ba.js.map": "/static/js/main.ee5550ba.js.map",
     "787.00b87e7b.chunk.js.map": "/static/js/787.00b87e7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ab3e5a9.css",
-    "static/js/main.f1cf1eab.js"
+    "static/js/main.ee5550ba.js"
   ]
 }
