@@ -12,6 +12,14 @@ import {Link} from "react-router-dom";
 
 const cardList = [
     {
+        image: logo,
+        date: "25 septembre 2023",
+        title: "Le site en version 2",
+        details: "Des améliorations sur ce site arrivent bientôt",
+        onClick: () => console.log("coucou6"),
+        key: 6
+    },
+    {
         image: compile,
         date: "6 mars 2023",
         title: "La Compile 2LC, ça avance!",
@@ -55,14 +63,6 @@ const cardList = [
         onClick: () => console.log("coucou3"),
         key: 5
     },
-    {
-        image: logo,
-        date: "24 septembre 2022",
-        title: "Block PâtesRiz",
-        details: "Details",
-        onClick: () => console.log("coucou6"),
-        key: 6
-    }
 ];
 
 function Home() {
@@ -72,7 +72,7 @@ function Home() {
                 <source src={video} type={'video/mp4'}/>
             </video>
             <div className="-mt-32 max-lg:-mt-24 max-md:-mt-16 max-sm:-mt-8">
-                <MainCard image={logo2LC} title="2LC" title2={"2LC Farmer"}
+                <MainCard image={logo2LC} title="2LC Hip Hop" title2={"2LC Farmer"}
                           details={<p className="text-gray-800 font-serif text-base px-6 mb-5">
                               Créée en 2008, l’association Ludik et Lucid Connexion (2LC) ne cesse d’évoluer et de se
                               structurer
@@ -90,7 +90,16 @@ function Home() {
                                   l’action sociale&nbsp;
                               </Link>
                               œuvre dans le même sens.</p>
-                          }/>
+                          }
+                          details2={<p className="text-gray-800 font-serif text-base px-6 mb-5">
+                              La médiation animale a prouvé sa capacité à apporter du bien être, à ouvrir en chacun de
+                              nous la possibilité de prendre soin du vivant. Oublier le bitume pour faire place à une
+                              respiration qu’offre l’animal permet d'alléger la charge mentale. <span className='font-bold'>2LC Farmer / médiation
+                              animale </span>emmène dans les grands ensembles les animaux de la ferme: le public peut les
+                              observer, les approcher , les caresser et les nourrir .
+                          </p>
+                          }
+                />
                 <AdhesionBanner/>
                 <CardList cardList={cardList}/>
             </div>
