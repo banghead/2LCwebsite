@@ -9,6 +9,7 @@ import travel from "../../assets/images/articles/2LCTravel_l’équipedeGabon202
 import rollerBeat from "../../assets/images/articles/Ateliersderue_Rollers,BeatBoxet Breaking.JPG"
 import compile from "../../assets/images/articles/Lacompilecaavance.jpg"
 import {Link} from "react-router-dom";
+import Button from "../../components/Button/Button";
 
 const cardList = [
     {
@@ -16,7 +17,9 @@ const cardList = [
         date: "25 septembre 2023",
         title: "Le site en version 2",
         details: "Des améliorations sur ce site arrivent bientôt",
-        onClick: () => console.log("coucou6"),
+        onClick: <Link to={"/actualite"}>
+            <Button>Lire plus</Button>
+        </Link>,
         key: 6
     },
     {
@@ -24,7 +27,9 @@ const cardList = [
         date: "6 mars 2023",
         title: "La Compile 2LC, ça avance!",
         details: "En préparation de la compile Rap 2LC, les séances de studio s'enchaînent chez Bellarue 17. C’est ainsi que Babass, S2A et Banghead ont posé leurs voix sur le morceau “ Dans mes nuages “: un track sur lequel on retrouvera aussi Omed aux commandes du refrain. Sur le thème du jardin secret, dans un registre boom bap, les 4 artistes se livrent une fois de plus sans compter.",
-        onClick: () => console.log("coucou4"),
+        onClick: <Link to={"/actualite"}>
+            <Button>Lire plus</Button>
+        </Link>,
         key: 1
     },
     {
@@ -32,7 +37,9 @@ const cardList = [
         date: "6 mars 2023",
         title: "Black and White: Les naissances vont bon train !",
         details: "La période de l’hiver rime avec naissance chez les moutons. Ce sont déjà 6 agneaux qui sont nés dans la ludik et lucid farmer. 2 petits béliers et 4 petites agnelles que nous retrouverons sans aucun doute dans nos ateliers de médiation animale et pourquoi pas tout prêt de chez toi !",
-        onClick: () => console.log("coucou5"),
+        onClick: <Link to={"/actualite"}>
+            <Button>Lire plus</Button>
+        </Link>,
         key: 2
     },
     {
@@ -42,7 +49,9 @@ const cardList = [
         details: "Dimanche 19 et 26 février, l’équipe sera à Malakoff à 15h, rue d’angleterre et au Clos Toreau à 16h30" +
             " sur les jeux d’eau," +
             " pour braver le froid et réchauffer les cœurs. Matériel à disposition pour tous, venez juste avec votre envie.",
-        onClick: () => console.log("coucou2"),
+        onClick: <Link to={"/actualite"}>
+            <Button>Lire plus</Button>
+        </Link>,
         key: 3
     },
     {
@@ -52,7 +61,9 @@ const cardList = [
         details: "Suite à l’annulation du départ pour le Kenya en décembre 2023, l’équipe 2LC Travel" +
             "  s’est réunie ce 23 janvier au centre des Alévis de Nantes: au programme, choisir une nouvelle destination!" +
             " Ce sera le Gabon et Libreville pour le printemps 2024.",
-        onClick: () => console.log("coucou1"),
+        onClick: <Link to={"/actualite"}>
+            <Button>Lire plus</Button>
+        </Link>,
         key: 4
     },
     {
@@ -60,7 +71,9 @@ const cardList = [
         date: "10 décembre 2023",
         title: "Soutien au téléthon chapelain",
         details: "Les breakeurs, les écrivains , les rappeurs et les beatboxers étaient 27 cette année et ont encore une fois mis le feu à Capellia dans le cadre du téléthon 2023. Cette date  a été l’occasion pour nos débutants de goûter à l’expérience scénique en alliant l’utile à l’agréable !",
-        onClick: () => console.log("coucou3"),
+        onClick: <Link to={"/actualite"}>
+            <Button>Lire plus</Button>
+        </Link>,
         key: 5
     },
 ];
@@ -82,26 +95,33 @@ function Home() {
                               l’expression par la culture HIP-HOP, la glisse urbaine et la médiation animale.
                               Pour favoriser le bien vivre ensemble, le collectif créent des espaces relationnels entre
                               les êtres humains de toute origine et tout horizons. Ici&nbsp;
-                              <Link to={"farmer"}>
-                                  l’action culturelle
-                              </Link>
+                              {/*<Link to={"farmer"}>*/}
+                              l’action culturelle
+                              {/*</Link>*/}
                               &nbsp;et&nbsp;
-                              <Link to={"farmer"}>
-                                  l’action sociale&nbsp;
-                              </Link>
+                              {/*<Link to={"farmer"}>*/}
+                              l’action sociale&nbsp;
+                              {/*</Link>*/}
                               œuvre dans le même sens.</p>
                           }
                           details2={<p className="text-gray-800 font-serif text-base px-6 mb-5">
                               La médiation animale a prouvé sa capacité à apporter du bien être, à ouvrir en chacun de
                               nous la possibilité de prendre soin du vivant. Oublier le bitume pour faire place à une
-                              respiration qu’offre l’animal permet d'alléger la charge mentale. <span className='font-bold'>2LC Farmer / médiation
-                              animale </span>emmène dans les grands ensembles les animaux de la ferme: le public peut les
+                              respiration qu’offre l’animal permet d'alléger la charge mentale. <span
+                              className='font-bold'>2LC Farmer / médiation
+                              animale </span>emmène dans les grands ensembles les animaux de la ferme: le public peut
+                              les
                               observer, les approcher , les caresser et les nourrir .
                           </p>
                           }
                 />
-                <AdhesionBanner/>
-                <CardList cardList={cardList}/>
+                <div className={'px-12'}>
+                    <AdhesionBanner/>
+                </div>
+                <div className={'px-8'}>
+                    <CardList cardList={cardList}/>
+                </div>
+
             </div>
         </div>
     );

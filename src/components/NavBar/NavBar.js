@@ -47,14 +47,12 @@ function NavBar() {
                                 Ateliers/Cours
                             </Link>
                         </li>
-                        {/*TODO*/}
-                        {/*<li className="mr-5 hidden lg:inline">*/}
-                        {/*    <Link to={"actualite"}*/}
-                        {/*          className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">*/}
-                        {/*        Actualités*/}
-                        {/*    </Link>*/}
-
-                        {/*</li>*/}
+                        <li className="mr-5 hidden lg:inline">
+                            <Link to={"actualite"}
+                                  className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                                Actualités
+                            </Link>
+                        </li>
                         {/*TODO*/}
                         {/*<li className="mr-5 hidden lg:inline">*/}
                         {/*    <Link to={"artiste-show"}*/}
@@ -102,7 +100,6 @@ function NavBar() {
                             </Link>
                         </div>
                     </li>
-                    {/*TODO*/}
                     {/*<li className={"pr-6 pl-6"}>*/}
                     {/*    <div className={"border-b pb-3 pt-3"}>*/}
                     {/*        <Link to={"actualite"}*/}
