@@ -1,7 +1,7 @@
 import React from 'react';
 import imageTest from "../../assets/images/photo-test.jpg";
 import CardImageRight from "../../components/CardImageRight/CardImageRight";
-import imageBbx from "../../assets/images/ateliers/bbx.jpg";
+import imageBbx from "../../assets/images/ateliers/bbx.webp";
 import CardImageLeft from "../../components/CardImageLeft/CardImageLeft";
 
 const cardList = [

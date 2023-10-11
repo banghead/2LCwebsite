@@ -44,7 +44,7 @@ function NavBar() {
                         <li className="mr-5 hidden lg:inline">
                             <Link to={"atelier"}
                                   className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
-                                Ateliers/Cours
+                                Cours
                             </Link>
                         </li>
                         <li className="mr-5 hidden lg:inline">
@@ -96,18 +96,18 @@ function NavBar() {
                         <div className={"border-b pb-3 pt-3"}>
                             <Link to={"atelier"}
                                   className="text-text-tertiary">
-                                Ateliers/Cours
+                                Cours
                             </Link>
                         </div>
                     </li>
-                    {/*<li className={"pr-6 pl-6"}>*/}
-                    {/*    <div className={"border-b pb-3 pt-3"}>*/}
-                    {/*        <Link to={"actualite"}*/}
-                    {/*              className="text-text-tertiary">*/}
-                    {/*            Actualités*/}
-                    {/*        </Link>*/}
-                    {/*    </div>*/}
-                    {/*</li>*/}
+                    <li className={"pr-6 pl-6"}>
+                        <div className={"border-b pb-3 pt-3"}>
+                            <Link to={"actualite"}
+                                  className="text-text-tertiary">
+                                Actualités
+                            </Link>
+                        </div>
+                    </li>
                     {/*TODO*/}
                     {/*<li className={"pr-6 pl-6 pb-4"}>*/}
                     {/*    <div className={"border-b pb-3 pt-3"}>*/}

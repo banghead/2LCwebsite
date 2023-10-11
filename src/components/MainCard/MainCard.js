@@ -9,7 +9,7 @@ function MainCard({image, title, title2, details, details2}) {
                     <div className="w-full">
                         <div className="flex-1 bg-white rounded-r rounded-b-none overflow-hidden shadow-lg h-full">
                             <h1 className="w-full font-bold text-xl text-gray-900 px-6 pt-6 pb-2">{title}</h1>
-                            {details}
+                            <p className={'text-justify'}>{details}</p>
                         </div>
                     </div>
 
@@ -20,7 +20,7 @@ function MainCard({image, title, title2, details, details2}) {
                     <div className="w-full">
                         <div className="flex-1 bg-white rounded-r rounded-b-none overflow-hidden shadow-lg h-full">
                             <h1 className="w-full font-bold text-xl text-gray-900 px-6 pt-6 pb-2">{title2}</h1>
-                            {details2}
+                            <p className={'text-justify'}>{details2}</p>
                         </div>
                     </div>
 

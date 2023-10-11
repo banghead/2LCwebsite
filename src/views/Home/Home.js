@@ -5,18 +5,19 @@ import video from "../../assets/homeMovie.mp4";
 import AdhesionBanner from "../../components/AdhesionBanner/AdhesionBanner";
 import logo from "../../assets/images/2LC-2.png"
 import logo2LC from "../../assets/images/logo.png"
-import travel from "../../assets/images/articles/2LCTravel_l’équipedeGabon2024autravail.jpeg"
-import rollerBeat from "../../assets/images/articles/Ateliersderue_Rollers,BeatBoxet Breaking.JPG"
-import compile from "../../assets/images/articles/Lacompilecaavance.jpg"
+import travel from "../../assets/images/articles/2LCTravel_l’équipedeGabon2024autravail.webp"
+import rollerBeat from "../../assets/images/articles/Ateliersderue_Rollers,BeatBoxet Breaking.webp"
+import compile from "../../assets/images/articles/Lacompilecaavance.webp"
 import {Link} from "react-router-dom";
 import Button from "../../components/Button/Button";
+import fermerQuart from "../../assets/images/articles/copie-de-la-ferme-sinvite-au-quartier.webp";
 
 const cardList = [
     {
-        image: logo,
-        date: "25 septembre 2023",
-        title: "Le site en version 2",
-        details: "Des améliorations sur ce site arrivent bientôt",
+        image: fermerQuart,
+        date: "17 septembre 2023",
+        title: "La ferme 2lc  s’invite à la fête de quartier de malakoff",
+        details: "Ce dimanche 17 septembre , jour de fête à Malakoff: une multitude d'associations sont présentes pour animer et fêter l'issue de 20 ans de rénovation urbaine. C’est un dimanche sans voiture : la ferme 2lc s’y est invitée.\n",
         onClick: <Link to={"/actualite"}>
             <Button>Lire plus</Button>
         </Link>,
