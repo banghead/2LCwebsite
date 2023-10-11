@@ -22,7 +22,7 @@ function CardImageRight({imageTest, title, details, horaires}) {
                     </div>
 
                     <div className='grid place-items-center'>
-                        <img src={imageTest} alt={title} style={{maxWidth: 400}}/>
+                        <img src={imageTest} alt={title} style={{maxHeight: 500}} className={"rounded"}/>
                     </div>
 
                     <div className="md:hidden w-full md:w-full flex flex-col flex-grow flex-shrink">

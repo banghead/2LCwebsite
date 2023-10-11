@@ -1,17 +1,30 @@
 import React from 'react';
 import CardList from "../../components/CardList/CardList";
 import logo from "../../assets/images/2LC-2.png";
-import compile from "../../assets/images/articles/Lacompilecaavance.jpg";
-import rollerBeat from "../../assets/images/articles/Ateliersderue_Rollers,BeatBoxet Breaking.JPG";
-import travel from "../../assets/images/articles/2LCTravel_l’équipedeGabon2024autravail.jpeg";
+import compile from "../../assets/images/articles/Lacompilecaavance.webp";
+import rollerBeat from "../../assets/images/articles/Ateliersderue_Rollers,BeatBoxet Breaking.webp";
+import travel from "../../assets/images/articles/2LCTravel_l’équipedeGabon2024autravail.webp";
+import roller from "../../assets/images/articles/sortie-roller-malakoff-2023.webp"
+import fermerQuart from "../../assets/images/articles/copie-de-la-ferme-sinvite-au-quartier.webp"
 import YearLine from "../../components/YearLine";
 
 const cardList2023 = [
     {
-        image: logo,
-        date: "25 septembre 2023",
-        title: "Le site en version 2",
-        details: "Des améliorations sur ce site arrivent bientôt",
+        image: fermerQuart,
+        date: "17 septembre 2023",
+        title: "La ferme 2lc  s’invite à la fête de quartier de malakoff",
+        details: "Pour ce dimanche de fête sans voiture, seuls circulent  les vélos et un petit train qui fait le tour du quartier malakoff. Le train est bondé et les passagers, enfants et adultes, passent devant la ferme,  avec une expression empreinte d'une surprise joyeuse. Les enclos sont  installés en bas des tours, près de la pataugeoire, ce qui suscite la curiosité des passants; la joie aussi est perceptible dans les regards.\n" +
+            "La ferme 2LC a à cœur de faire entrer en contact le public et les animaux. C’est ainsi que les habitants rentrent par petites grappes pour avoir une relation privilégiée avec les moutons, dindons, lapins et autres canards. Les animateurs et animatrices cherchent à créer des interactions positives. On mesure l’importance pour l’équipe 2LC que chacun puisse  faire confiance à l'animal et  puisse se faire confiance à soi pour dépasser certaines peurs. C’est à ce prix que la complicité éphémère avec l’animal s’installe. Mazora la brebis vedette accepte volontiers les caresses contre un peu de blé ou un quignon de pain sec! \n" +
+            "Les mamans s’attendrissent devant les canetons et les poussins.Les enfants guident le troupeau d'oies à travers un parcours de bottes de paille, sous le regard fier de leurs parents: il semble que tout le monde ait dépassé son appréhension. Les rires et sourires virevoltent dans l’enclos.\n",
+        key: 7
+    }, {
+        image: roller,
+        date: "24 avril 2023",
+        title: "Sortie roller pour les jeunes du quartier clos toreau",
+        details: "Filles et garçons prennent place dans le minibus.  Les rollers et protections sont chargés dans le coffre. En route vers le skatepark de Sainte Luce pour deux heures de glisse.\n" +
+            "Le cadre est verdoyant , les modules et le bol sont super roulants! \n" +
+            "Pendant deux heures , les jeunes kiffent , se font des frayeurs, sentent l'adrénaline. Ils progressent, ils s’entraident et rigolent.\n" +
+            "La session se termine comme à son habitude sur les balançoires tourniquets et autres jeux à proximité du skatepark, le groupe est uni et le souvenir est gravé!\n",
         key: 6
     },
     {

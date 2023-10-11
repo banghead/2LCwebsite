@@ -11,7 +11,7 @@ function CardImageLeft({imageTest, title, details, horaires}) {
             <div className="h-full bg-white rounded w-full m-5">
                 <div className="grid md:grid-cols-2 grid-cols-1 shadow-lg overflow-hidden rounded">
                     <div className='grid place-items-center'>
-                        <img src={imageTest} alt={title} style={{maxWidth: 400}}/>
+                        <img src={imageTest} alt={title} style={{maxHeight: 500}} className={"rounded"}/>
                     </div>
                     <div className="w-full md:w-full flex flex-col flex-grow flex-shrink">
                         <div className="flex-1 bg-white rounded-r rounded-b-none overflow-hidden shadow-lg">
