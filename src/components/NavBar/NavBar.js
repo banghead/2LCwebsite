@@ -34,13 +34,12 @@ function NavBar() {
                                 <img src={logo} className={"h-[75px]  min-w-[75px] w-[75px] m-1.5"} alt={"logo"}/>
                             </Link>
                         </li>
-                        {/*TODO*/}
-                        {/*<li className="mr-2 hidden lg:inline">*/}
-                        {/*    <Link to={"qui-sommes-nous"}*/}
-                        {/*          className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">*/}
-                        {/*        Qui sommes nous ?*/}
-                        {/*    </Link>*/}
-                        {/*</li>*/}
+                        <li className="mr-2 hidden lg:inline">
+                            <Link to={"qui-sommes-nous"}
+                                  className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
+                                Qui sommes nous ?
+                            </Link>
+                        </li>
                         <li className="mr-5 hidden lg:inline">
                             <Link to={"atelier"}
                                   className="inline-block text-text-tertiary no-underline hover:text-gray-200 hover:underline py-2 px-2 text-xl">
@@ -83,15 +82,14 @@ function NavBar() {
             </div>
             <div id={"dropdown"} className={"hidden"}>
                 <ul>
-                    {/*<li className={"pr-6 pl-6"}>*/}
-                    {/*    <div className={"border-b pb-3 pt-3"}>*/}
-                    {/*    TODO*/}
-                    {/*    <Link to={"qui-sommes-nous"}*/}
-                    {/*          className="text-text-tertiary">*/}
-                    {/*        Qui sommes nous ?*/}
-                    {/*    </Link>*/}
-                    {/*</div>*/}
-                    {/*</li>*/}
+                    <li className={"pr-6 pl-6"}>
+                        <div className={"border-b pb-3 pt-3"}>
+                        <Link to={"qui-sommes-nous"}
+                              className="text-text-tertiary">
+                            Qui sommes nous ?
+                        </Link>
+                    </div>
+                    </li>
                     <li className={"pr-6 pl-6"}>
                         <div className={"border-b pb-3 pt-3"}>
                             <Link to={"atelier"}
